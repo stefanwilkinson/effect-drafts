@@ -1,0 +1,303 @@
+html {
+    scroll-behavior: smooth;
+}
+.col-12.text-center.text-dark .display-3 {
+    animation: scaleit 1s ease-in forwards;
+}
+.col-12.text-center.text-dark h3{
+    animation: scaleit-small 1s ease-in forwards;
+}
+@keyframes scaleit {
+    0%   { transform: scale(); }
+    75%  { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+@keyframes scaleit-small {
+    0%   { transform: scale(); }
+    75%  { transform: scale(1.15); }
+    100% { transform: scale(1); }
+}
+@keyframes fadeit {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+#contact {
+    width: 100%;
+    height: 100%;
+    background-image: url('Fluid-Images/contact-us-background.jpeg');
+    padding: 5% 0%;
+}
+#contact-header {
+    color: #fff;
+}
+#contact-subheader {
+    color: #d6d6d6;
+}
+#footer {
+    padding-top: 15px;
+    padding-left: inherit;
+    padding-right: inherit;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.card {
+    border: none!important;
+}
+.navbar .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 700;
+    color: #272727;
+    letter-spacing: 1.3px;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    transition: background-color .3s ease-in;
+}
+.navbar .navbar-nav .nav-link:hover { 
+    background-color: #272727;
+    color: #fff;
+    transition: color .1s ease-in; 
+}
+.navbar-brand {
+    font-size: 25px;
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('Fluid-Images/MainBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+  }
+i {
+    padding-left: 3px;
+}
+.fa.fa-phone {
+    color: rgb(78, 184, 78);
+    font-size: 32px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.fa.fa-map-marker {
+    color: rgb(197, 18, 18);
+    font-size: 32px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.fa.fa-envelope {
+    color: rgb(112, 112, 112);
+    font-size: 32px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.fa-facebook-official {
+    color: rgb(15, 75, 185);
+    transition: color .5s ease;
+}
+.fa-instagram {
+    color: rgb(235, 160, 62);
+    transition: color .5s ease; 
+}
+.fa-twitter-square {
+    color: rgb(57, 125, 252);
+    transition: color .5s ease;
+}
+.fa-facebook-official:hover {
+    transform: scale(1.3);
+    transition: all .5s ease;
+}
+.fa-instagram:hover {
+    transform: scale(1.3);
+    transition: all .5s ease;
+}
+.fa-twitter-square:hover {
+    transform: scale(1.3);
+    transition: all .5s ease;
+}
+.fa-github:hover {
+    transform: scale(1.3);
+    transition: all .5s ease;
+}
+.row.mb-3 .col-md-4 {
+    padding-bottom: 10px;
+}
+.row.mb-3 .col-md-4 img {
+    transition: .5s;
+    border: #272727 solid 1px;
+}
+.row.mb-3 .col-md-4 img:hover {
+    transform: scale(.9);
+}
+.masthead:before { 
+    content: '';
+    background: url('Fluid-Images/wave.png');
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    bottom: 0;
+    left:0;
+    animation: wavyboi 10s linear infinite;
+}
+.masthead:after { 
+    content: '';
+    background: url('Fluid-Images/wave.png');
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    bottom: 0;
+    left:0; 
+    opacity: 0.5;
+    animation: wavyboi-reverse 10s linear infinite;
+}
+.bg-dark {
+    transition: 750ms ease-in;
+    background-color: transparent!important;
+}
+.bg-dark.scrolled {
+    background-color: #ebebebec!important;
+}
+@keyframes wavyboi { 
+    0% { background-position: 0;}
+    100% { background-position: 1360px;}
+}
+@keyframes wavyboi-reverse { 
+    0% { background-position: 1360px;}
+    100% { background-position: 0;}
+}
+#services {
+    padding: 5% 0%;
+    background-image: url('Fluid-Images/services_background.jpg');
+    color: #fff;
+}
+.services-icon {
+    font-size: 32px;
+}
+.service-description {
+    padding: 0% 2.5%;
+}
+.fa.fa-code{
+    color: #FF0000;
+}
+.fa.fa-camera-retro {
+    color: #FFC000;
+}
+.fa.fa-tablet {
+    color: #4bf442;
+}
+.fa.fa-bar-chart {
+    color: #00bbff;
+}
+.fa.fa-ticket {
+    color: #FF00FF;
+}
+.col-lg-4.col-md-4 {
+    border-right: 1px solid lightgray!important;
+}
+.col-md-4.mb-4 img {
+    transform:scale(1,1);
+}
+.col-md-4.mb-4 img:hover {
+    transition: .5s ease;
+}
+.parlx {
+    background: url("Fluid-Images/portfolio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+h2.text-center.text-white {
+    padding-bottom: 25px;
+}
+textarea {
+    height: 145px!important;
+}
+.paraxify {
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+div .col-md-4 img {
+    border: #8f8f8fb0 solid 2px;
+    transition: .3s ease;
+}
+div .col-md-4 img:hover {
+    transform: scale(1.1);
+}
+div .col-md-4 {
+    padding-bottom: 25px;
+}
+a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+h2.section-heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+h4 {
+    font-family: 'Lusitana', serif;
+    font-size: large;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.service-sections {
+    font-family: 'Lusitana', serif;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+}
+.fixmarg {
+    padding-bottom: 10px; 
+    margin-bottom: 1rem;
+}
+.row.xyz { 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.container-fluid.bby {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+@media only screen and (max-width: 768px){
+    .parlx {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    textarea {
+        height: 100px;
+    }
+    .fixmarg { 
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .movetocenter { 
+        text-align: center;
+    }
+    h2.text-center.text-white {
+        padding-bottom: 15px;
+    }
+    #footer-contact-phone, #footer-contact-address {
+        border-bottom: 1px solid darkgray;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .col-lg-4.col-md-4 {
+        border-right: none!important;
+    }
+}
+@media only screen and (min-width: 768px){
+}
